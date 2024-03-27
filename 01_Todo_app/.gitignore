@@ -1,0 +1,11 @@
+/.venv/
+.idea
+bonus
+exercises
+experiments
+bug-fixing exercises
+files/doc.txt
+files/tests.py
+To-do App.spec
+build
+dist

@@ -1,0 +1,483 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 28-01-2024
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGHT   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+   31,100838,MARSEILLE OBS. PALAIS-LONCHAMP          ,FR,+43:18:18,+005:23:48,  75, TG5,19000101,20021231,   10,Jean-Michel Soubeyroux                            
+   31,104894,MARSEILLE OBS. PALAIS-LONCHAMP          ,FR,+43:18:18,+005:23:48,  75, RR3,18810101,20050101,   10,Jean-Michel Soubeyroux                            
+   31,104895,MARSEILLE OBS. PALAIS-LONCHAMP          ,FR,+43:18:18,+005:23:48,  75, TX6,18970101,20030331,   10,Jean-Michel Soubeyroux                            
+   31,104896,MARSEILLE OBS. PALAIS-LONCHAMP          ,FR,+43:18:18,+005:23:48,  75, TN2,19580101,20030331,   10,Jean-Michel Soubeyroux                            
+   32,100099,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161, TN2,19450301,20201231,   10,Jean-Michel Soubeyroux                            
+   32,100100,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161, TX6,19450301,20201231,   10,Jean-Michel Soubeyroux                            
+   32,100101,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161, RR9,19450301,20201231,   10,Jean-Michel Soubeyroux                            
+   32,100102,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161,PP23,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+   32,100839,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161, TG5,19450301,20201231,   10,Jean-Michel Soubeyroux                            
+   32,175624,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161,HU13,19450307,20201231,   10,Jean-Michel Soubeyroux                            
+   32,175625,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161,FG12,19450307,20201231,   10,Jean-Michel Soubeyroux                            
+   32,190843,BOURGES                                 ,FR,+47:03:33,+002:21:35, 161, QQ5,19870301,20191231,   72,Anatoly V. Tsvetkov                               
+   33,100103,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151, TN2,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+   33,100104,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151, TX6,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+   33,100105,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151, RR9,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+   33,100106,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151,PP23,19500101,20201231,   10,Jean-Michel Soubeyroux                            
+   33,100840,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151, TG5,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+   33,175644,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151,HU13,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+   33,175645,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151,FG12,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+   33,190885,TOULOUSE-BLAGNAC                        ,FR,+43:37:16,+001:22:44, 151, QQ5,19910615,20191231,   72,Anatoly V. Tsvetkov                               
+   34,100107,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47, TN2,19201109,20201231,   10,Jean-Michel Soubeyroux                            
+   34,100108,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47, TX6,19201109,20201231,   10,Jean-Michel Soubeyroux                            
+   34,100109,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47, RR9,19201109,20201231,   10,Jean-Michel Soubeyroux                            
+   34,100110,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47,PP23,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+   34,100841,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47, TG5,19201109,20201231,   10,Jean-Michel Soubeyroux                            
+   34,175646,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47,HU13,19201109,20201231,   10,Jean-Michel Soubeyroux                            
+   34,175647,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47,FG12,19201109,20201231,   10,Jean-Michel Soubeyroux                            
+   34,190866,BORDEAUX-MERIGNAC                       ,FR,+44:49:50,-000:41:29,  47, QQ5,19780101,20191231,   72,Anatoly V. Tsvetkov                               
+   35,100114,CHATEAUROUX DEOLS                       ,FR,+46:52:11,+001:44:27, 158,PP23,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+   35,190845,CHATEAUROUX DEOLS                       ,FR,+46:52:11,+001:44:27, 158, QQ5,20090828,20191231,   72,Anatoly V. Tsvetkov                               
+   36,100115,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, TN2,19241117,20201231,   10,Jean-Michel Soubeyroux                            
+   36,100116,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, TX6,19241117,20201231,   10,Jean-Michel Soubeyroux                            
+   36,100117,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, RR9,19241117,20201231,   10,Jean-Michel Soubeyroux                            
+   36,100118,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42,PP23,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+   36,100843,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, TG5,19241117,20201231,   10,Jean-Michel Soubeyroux                            
+   36,104959,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, SS1,19310101,20050101,   10,Jean-Michel Soubeyroux                            
+   36,176122,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42,HU13,19241201,20201231,   10,Jean-Michel Soubeyroux                            
+   36,176123,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42,FG12,19241201,20201231,   10,Jean-Michel Soubeyroux                            
+   36,190894,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, QQ5,19801001,20191231,   72,Anatoly V. Tsvetkov                               
+   36,209885,PERPIGNAN                               ,FR,+42:44:14,+002:52:22,  42, QQ6,19310101,20050101,   10,Jean-Michel Soubeyroux                            
+   37,100119,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235, TN2,19750420,20201231,   10,Jean-Michel Soubeyroux                            
+   37,100120,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235, TX6,19750420,20201231,   10,Jean-Michel Soubeyroux                            
+   37,100121,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235, RR9,19750420,20201231,   10,Jean-Michel Soubeyroux                            
+   37,100122,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235,PP23,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+   37,100844,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235, TG5,19750420,20201231,   10,Jean-Michel Soubeyroux                            
+   37,176130,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235,HU13,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+   37,176131,LYON - ST EXUPERY                       ,FR,+45:43:35,+005:04:40, 235,FG12,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+   38,100126,PARIS - MONTSOURIS                      ,FR,+48:49:18,+002:20:16,  75,PP23,19500101,20201231,   10,Jean-Michel Soubeyroux                            
+   38,190814,PARIS - MONTSOURIS                      ,FR,+48:49:18,+002:20:16,  75, QQ5,19780101,20191231,   72,Anatoly V. Tsvetkov                               
+   39,100098,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9,PP23,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+   39,104890,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, RR9,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+   39,104891,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, SS1,19601201,20050101,   10,Jean-Michel Soubeyroux                            
+   39,104892,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, TX6,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+   39,104893,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, TN2,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+   39,106702,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, TG5,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+   39,175616,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9,HU13,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+   39,175617,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9,FG12,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+   39,190888,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, QQ5,19800101,20191231,   72,Anatoly V. Tsvetkov                               
+   39,209886,MARIGNANE                               ,FR,+43:26:16,+005:12:58,   9, QQ6,19601201,20050101,   10,Jean-Michel Soubeyroux                            
+  322,104924,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36, RR9,19441101,20201231,   10,Jean-Michel Soubeyroux                            
+  322,104925,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36, TX6,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  322,104926,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36, TN2,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  322,106713,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36, TG5,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  322,175651,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36,PP23,19910410,20201231,   10,Jean-Michel Soubeyroux                            
+  322,175652,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36,HU13,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  322,175653,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36,FG12,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  322,190826,RENNES-ST JACQUES                       ,FR,+48:04:08,-001:44:02,  36, QQ5,19671001,20191231,   72,Anatoly V. Tsvetkov                               
+  323,104960,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150, RR9,19230501,20201231,   10,Jean-Michel Soubeyroux                            
+  323,104961,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150, TX6,19240101,20201231,   10,Jean-Michel Soubeyroux                            
+  323,104962,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150, TN2,19240101,20201231,   10,Jean-Michel Soubeyroux                            
+  323,106770,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150, TG5,19240101,20201231,   10,Jean-Michel Soubeyroux                            
+  323,176124,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150,PP23,19910409,20201231,   10,Jean-Michel Soubeyroux                            
+  323,176125,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150,HU13,19411001,20201231,   10,Jean-Michel Soubeyroux                            
+  323,176126,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150,FG12,19450601,20201231,   10,Jean-Michel Soubeyroux                            
+  323,190821,STRASBOURG-ENTZHEIM                     ,FR,+48:32:58,+007:38:25, 150, QQ5,19740801,20191231,   72,Anatoly V. Tsvetkov                               
+  433,190887,BIARRITZ-ANGLET                         ,FR,+43:28:09,-001:32:03,  71, QQ5,20110315,20191231,   72,Anatoly V. Tsvetkov                               
+  434,104484,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94, RR9,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  434,104485,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94, TG5,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  434,104486,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94, TN2,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  434,104487,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94, TX6,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  434,175641,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94,PP23,19500101,20201231,   10,Jean-Michel Soubeyroux                            
+  434,175642,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94,HU13,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  434,175643,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94,FG12,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  434,190823,BREST-GUIPAVAS                          ,FR,+48:26:39,-004:24:43,  94, QQ5,19870301,20191230,   72,Anatoly V. Tsvetkov                               
+  736,104036,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69, RR9,19220501,20201231,   10,Jean-Michel Soubeyroux                            
+  736,104037,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69, TG5,19220501,20201231,   10,Jean-Michel Soubeyroux                            
+  736,104038,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69, TN2,19220501,20201231,   10,Jean-Michel Soubeyroux                            
+  736,104039,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69, TX6,19220501,20201231,   10,Jean-Michel Soubeyroux                            
+  736,176135,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69,PP23,19910409,20201231,   10,Jean-Michel Soubeyroux                            
+  736,176136,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69,HU13,19220501,20201231,   10,Jean-Michel Soubeyroux                            
+  736,176137,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69,FG12,19220501,20201231,   10,Jean-Michel Soubeyroux                            
+  736,190806,ABBEVILLE                               ,FR,+50:08:10,+001:50:02,  69, QQ5,20111111,20191231,   72,Anatoly V. Tsvetkov                               
+  737,104040,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47, RR9,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  737,104041,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47, TG5,19441201,20201231,   10,Jean-Michel Soubeyroux                            
+  737,104042,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47, TN2,19441201,20201231,   10,Jean-Michel Soubeyroux                            
+  737,104043,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47, TX6,19441201,20201231,   10,Jean-Michel Soubeyroux                            
+  737,176110,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47,PP23,19910402,20201231,   10,Jean-Michel Soubeyroux                            
+  737,176111,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47,HU13,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  737,176112,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47,FG12,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+  737,190804,LILLE-LESQUIN                           ,FR,+50:34:12,+003:05:51,  47, QQ5,20110610,20171230,   72,Anatoly V. Tsvetkov                               
+  738,104044,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67, RR9,19441013,20201231,   10,Jean-Michel Soubeyroux                            
+  738,104045,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67, TG5,19451001,20201231,   10,Jean-Michel Soubeyroux                            
+  738,104046,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67, TN2,19451001,20201231,   10,Jean-Michel Soubeyroux                            
+  738,104047,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67, TX6,19451001,20201231,   10,Jean-Michel Soubeyroux                            
+  738,175618,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67,PP23,19910408,20201231,   10,Jean-Michel Soubeyroux                            
+  738,175619,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67,HU13,19441013,20201231,   10,Jean-Michel Soubeyroux                            
+  738,175620,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67,FG12,19450501,20201231,   10,Jean-Michel Soubeyroux                            
+  738,190811,CAEN-CARPIQUET                          ,FR,+49:10:48,-000:27:22,  67, QQ5,19740101,20191231,   72,Anatoly V. Tsvetkov                               
+  739,104048,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95, RR9,20120507,20201231,   10,Jean-Michel Soubeyroux                            
+  739,104049,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95, TG5,20120508,20201231,   10,Jean-Michel Soubeyroux                            
+  739,104050,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95, TN2,20120508,20201231,   10,Jean-Michel Soubeyroux                            
+  739,104051,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95, TX6,20120508,20201231,   10,Jean-Michel Soubeyroux                            
+  739,175672,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95,PP23,20120508,20201231,   10,Jean-Michel Soubeyroux                            
+  739,175673,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95,HU13,20120508,20201231,   10,Jean-Michel Soubeyroux                            
+  739,175674,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95,FG12,20120524,20201231,   10,Jean-Michel Soubeyroux                            
+  739,190810,REIMS-PRUNAY                            ,FR,+49:12:35,+004:09:19,  95, QQ5,20120508,20191231,   72,Anatoly V. Tsvetkov                               
+  740,104052,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143, RR9,19450801,20201231,   10,Jean-Michel Soubeyroux                            
+  740,104053,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143, TG5,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  740,104054,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143, TN2,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  740,104055,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143, TX6,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  740,176113,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143,PP23,19910410,20201231,   10,Jean-Michel Soubeyroux                            
+  740,176114,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143,HU13,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+  740,176115,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+  740,190824,ALENCON                                 ,FR,+48:26:44,+000:06:37, 143, QQ5,20100602,20191231,   72,Anatoly V. Tsvetkov                               
+  741,104944,NANCY-ESSEY                             ,FR,+48:41:16,+006:13:17, 212, SS1,19500101,20050101,   10,Jean-Michel Soubeyroux                            
+  741,190818,NANCY-ESSEY                             ,FR,+48:41:16,+006:13:17, 212, QQ5,19671001,20191231,   72,Anatoly V. Tsvetkov                               
+  741,210070,NANCY-ESSEY                             ,FR,+48:41:16,+006:13:17, 212, QQ6,19500101,20050101,   10,Jean-Michel Soubeyroux                            
+  742,104060,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26, RR9,19450501,20201231,   10,Jean-Michel Soubeyroux                            
+  742,104061,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26, TG5,19450501,20201231,   10,Jean-Michel Soubeyroux                            
+  742,104062,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26, TN2,19450501,20201231,   10,Jean-Michel Soubeyroux                            
+  742,104063,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26, TX6,19450501,20201231,   10,Jean-Michel Soubeyroux                            
+  742,175663,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26,PP23,19500101,20201231,   10,Jean-Michel Soubeyroux                            
+  742,175664,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26,HU13,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  742,175665,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26,FG12,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  742,190842,NANTES-BOUGUENAIS                       ,FR,+47:09:00,-001:36:32,  26, QQ5,19860301,20191231,   72,Anatoly V. Tsvetkov                               
+  744,104931,ORLEANS                                 ,FR,+47:59:26,+001:46:41, 123, SS1,19490701,20050101,   10,Jean-Michel Soubeyroux                            
+  744,190829,ORLEANS                                 ,FR,+47:59:26,+001:46:41, 123, QQ5,20100826,20191231,   72,Anatoly V. Tsvetkov                               
+  744,210071,ORLEANS                                 ,FR,+47:59:26,+001:46:41, 123, QQ6,19490706,20050101,   10,Jean-Michel Soubeyroux                            
+  745,104072,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219, RR9,19210529,20201231,   10,Jean-Michel Soubeyroux                            
+  745,104073,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219, TG5,19210529,20201231,   10,Jean-Michel Soubeyroux                            
+  745,104074,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219, TN2,19210529,20201231,   10,Jean-Michel Soubeyroux                            
+  745,104075,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219, TX6,19210529,20201231,   10,Jean-Michel Soubeyroux                            
+  745,175632,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219,PP23,19840101,20201231,   10,Jean-Michel Soubeyroux                            
+  745,175633,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219,HU13,19210529,20201231,   10,Jean-Michel Soubeyroux                            
+  745,175634,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219,FG12,19210601,20201231,   10,Jean-Michel Soubeyroux                            
+  745,190840,DIJON-LONGVIC                           ,FR,+47:16:04,+005:05:18, 219, QQ5,19761001,20191231,   72,Anatoly V. Tsvetkov                               
+  746,219106,LANGRES                                 ,FR,+47:50:37,+005:20:15, 466, QQ5,20180101,20191231,   72,Anatoly V. Tsvetkov                               
+  747,104903,BESANCON                                ,FR,+47:14:56,+005:59:19, 307, SS1,19310702,20050101,   10,Jean-Michel Soubeyroux                            
+  747,190841,BESANCON                                ,FR,+47:14:56,+005:59:19, 307, QQ5,19910801,20191231,   72,Anatoly V. Tsvetkov                               
+  747,210072,BESANCON                                ,FR,+47:14:56,+005:59:19, 307, QQ6,19310702,20050101,   10,Jean-Michel Soubeyroux                            
+  748,190851,LA ROCHELLE AERODROME                   ,FR,+46:10:40,-001:11:34,  20, QQ5,19720101,20191231,   72,Anatoly V. Tsvetkov                               
+  749,104088,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123, RR9,19210501,20201231,   10,Jean-Michel Soubeyroux                            
+  749,104089,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123, TG5,19210501,20201231,   10,Jean-Michel Soubeyroux                            
+  749,104090,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123, TN2,19210501,20201231,   10,Jean-Michel Soubeyroux                            
+  749,104091,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123, TX6,19210501,20201231,   10,Jean-Michel Soubeyroux                            
+  749,176141,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123,PP23,19910409,20201231,   10,Jean-Michel Soubeyroux                            
+  749,176142,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123,HU13,19210501,20201231,   10,Jean-Michel Soubeyroux                            
+  749,176143,POITIERS - BIARD                        ,FR,+46:35:38,+000:18:52, 123,FG12,19210501,20201231,   10,Jean-Michel Soubeyroux                            
+  750,104092,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331, RR9,19230701,20201231,   10,Jean-Michel Soubeyroux                            
+  750,104093,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331, TG5,19230101,20201231,   10,Jean-Michel Soubeyroux                            
+  750,104094,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331, TN2,19230101,20201231,   10,Jean-Michel Soubeyroux                            
+  750,104095,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331, TX6,19230101,20201231,   10,Jean-Michel Soubeyroux                            
+  750,176116,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331,PP23,19500101,20201231,   10,Jean-Michel Soubeyroux                            
+  750,176117,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331,HU13,19230701,20201231,   10,Jean-Michel Soubeyroux                            
+  750,176118,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331,FG12,19230702,20201231,   10,Jean-Michel Soubeyroux                            
+  750,190857,CLERMONT-FERRAND                        ,FR,+45:47:13,+003:08:58, 331, QQ5,19780101,20191231,   72,Anatoly V. Tsvetkov                               
+  751,104965,LYON-BRON                               ,FR,+45:43:33,+004:56:16, 197, SS1,19310101,20050101,   10,Jean-Michel Soubeyroux                            
+  751,190858,LYON-BRON                               ,FR,+45:43:33,+004:56:16, 197, QQ5,20090101,20191231,   72,Anatoly V. Tsvetkov                               
+  751,210073,LYON-BRON                               ,FR,+45:43:33,+004:56:16, 197, QQ6,19310101,20050101,   10,Jean-Michel Soubeyroux                            
+  753,190874,AGEN                                    ,FR,+44:10:19,+000:35:40,  58, QQ5,19680714,20191231,   72,Anatoly V. Tsvetkov                               
+  755,104112,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871, RR9,18770101,20201231,   10,Jean-Michel Soubeyroux                            
+  755,104113,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871, TG5,19470624,20201231,   10,Jean-Michel Soubeyroux                            
+  755,104114,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871, TN2,19470624,20201231,   10,Jean-Michel Soubeyroux                            
+  755,104115,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871, TX6,19470624,20201231,   10,Jean-Michel Soubeyroux                            
+  755,175601,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871,PP23,19930101,20201231,   10,Jean-Michel Soubeyroux                            
+  755,175602,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871,HU13,19470701,20201231,   10,Jean-Michel Soubeyroux                            
+  755,175603,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+  755,190870,EMBRUN                                  ,FR,+44:33:56,+006:30:08, 871, QQ5,19800101,20191231,   72,Anatoly V. Tsvetkov                               
+  756,104116,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360, RR9,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  756,104117,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360, TG5,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  756,104118,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360, TN2,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  756,104119,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360, TX6,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+  756,176119,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360,PP23,19910409,20201231,   10,Jean-Michel Soubeyroux                            
+  756,176120,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360,HU13,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+  756,176121,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+  756,190892,TARBES - OSSUN                          ,FR,+43:11:17,+000:00:00, 360, QQ5,20100429,20191231,   72,Anatoly V. Tsvetkov                               
+  757,104120,NICE                                    ,FR,+43:38:56,+007:12:32,   2, RR9,19420701,20201231,   10,Jean-Michel Soubeyroux                            
+  757,104121,NICE                                    ,FR,+43:38:56,+007:12:32,   2, TG5,19420701,20201231,   10,Jean-Michel Soubeyroux                            
+  757,104122,NICE                                    ,FR,+43:38:56,+007:12:32,   2, TN2,19420701,20201231,   10,Jean-Michel Soubeyroux                            
+  757,104123,NICE                                    ,FR,+43:38:56,+007:12:32,   2, TX6,19420701,20201231,   10,Jean-Michel Soubeyroux                            
+  757,175604,NICE                                    ,FR,+43:38:56,+007:12:32,   2,PP23,19890901,20201231,   10,Jean-Michel Soubeyroux                            
+  757,175605,NICE                                    ,FR,+43:38:56,+007:12:32,   2,HU13,19420701,20201231,   10,Jean-Michel Soubeyroux                            
+  757,175606,NICE                                    ,FR,+43:38:56,+007:12:32,   2,FG12,19420701,20201231,   10,Jean-Michel Soubeyroux                            
+  757,190884,NICE                                    ,FR,+43:38:56,+007:12:32,   2, QQ5,19671001,20191231,   72,Anatoly V. Tsvetkov                               
+  758,104124,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10, RR9,19470501,20201231,   10,Jean-Michel Soubeyroux                            
+  758,104125,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10, TG5,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+  758,104126,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10, TN2,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+  758,104127,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10, TX6,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+  758,175629,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10,PP23,19910101,20201231,   10,Jean-Michel Soubeyroux                            
+  758,175630,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10,HU13,19480101,20201231,   10,Jean-Michel Soubeyroux                            
+  758,175631,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+  758,190895,BASTIA                                  ,FR,+42:32:26,+009:29:07,  10, QQ5,19910101,20191231,   72,Anatoly V. Tsvetkov                               
+  759,104975,AMIENS-GLISY                            ,FR,+49:52:18,+002:23:06,  60, RR3,19290101,20050101,   10,Jean-Michel Soubeyroux                            
+  760,190834,AUXERRE-PERRIGNY                        ,FR,+47:49:28,+003:32:58, 152, QQ5,19761101,20191231,   72,Anatoly V. Tsvetkov                               
+  761,104943,BALLOTS                                 ,FR,+47:53:54,-001:02:06,  62, RR3,19560101,20050101,   10,Jean-Michel Soubeyroux                            
+  762,190808,BEAUVAIS-TILLE                          ,FR,+49:26:47,+002:07:37,  89, QQ5,20100204,20191231,   72,Anatoly V. Tsvetkov                               
+  764,104982,BRETIGNY-SUR-ORGE                       ,FR,+48:36:00,+002:19:36,  78, RR3,19580101,20050101,   10,Jean-Michel Soubeyroux                            
+  766,190891,CARCASSONNE                             ,FR,+43:12:55,+002:17:43, 128, QQ5,19800101,20191231,   72,Anatoly V. Tsvetkov                               
+  767,104935,CATUS                                   ,FR,+44:33:24,+001:20:18, 165, RR3,19310101,20050101,   10,Jean-Michel Soubeyroux                            
+  768,190822,CHARTRES                                ,FR,+48:27:37,+001:30:04, 155, QQ5,20090831,20191231,   72,Anatoly V. Tsvetkov                               
+  770,104934,CHATILLON-COLIGNY                       ,FR,+47:49:36,+002:50:54, 140, RR3,19390601,20050101,   10,Jean-Michel Soubeyroux                            
+  771,104901,CHATILLON-SUR-SEINE                     ,FR,+47:50:54,+004:34:54, 262, RR3,18900101,20050101,   10,Jean-Michel Soubeyroux                            
+  771,190833,CHATILLON-SUR-SEINE                     ,FR,+47:50:54,+004:34:54, 262, QQ5,20130101,20191231,   72,Anatoly V. Tsvetkov                               
+  773,104957,ESPOEY                                  ,FR,+43:14:54,-000:09:18, 312, RR3,19340101,20050101,   10,Jean-Michel Soubeyroux                            
+  774,104930,FAVERGES-DE-LA-TOUR                     ,FR,+45:35:42,+005:31:48, 360, RR3,19480101,20050101,   10,Jean-Michel Soubeyroux                            
+  776,104902,LA SOUTERRAINE                          ,FR,+46:14:36,+001:28:06, 405, RR3,19420101,19491231,   10,Jean-Michel Soubeyroux                            
+  777,190831,LE MANS                                 ,FR,+47:56:27,+000:11:22,  48, QQ5,20100219,20191231,   72,Anatoly V. Tsvetkov                               
+  778,104936,LE MASSEGROS                            ,FR,+44:18:30,+003:10:36, 870, RR3,19480101,19491231,   10,Jean-Michel Soubeyroux                            
+  781,104974,LEZAY                                   ,FR,+46:15:54,-000:00:36, 124, RR3,19200101,20050101,   10,Jean-Michel Soubeyroux                            
+  782,190846,L-ILE-D-YEU                             ,FR,+46:41:37,-002:19:48,  32, QQ5,19880801,19910228,   72,Anatoly V. Tsvetkov                               
+  784,104949,METZ-FRESCATY                           ,FR,+49:04:23,+006:07:32, 190, TX6,19460101,20050101,   10,Jean-Michel Soubeyroux                            
+  784,104950,METZ-FRESCATY                           ,FR,+49:04:23,+006:07:32, 190, TN2,19460101,20050101,   10,Jean-Michel Soubeyroux                            
+  784,106764,METZ-FRESCATY                           ,FR,+49:04:23,+006:07:32, 190, TG5,19460101,19491231,   10,Jean-Michel Soubeyroux                            
+  784,219108,METZ-FRESCATY                           ,FR,+49:04:23,+006:07:32, 190, QQ5,20190102,20191231,   72,Anatoly V. Tsvetkov                               
+  785,104883,MONTCORNET                              ,FR,+49:42:00,+004:01:00, 130, RR3,19000101,20050101,   10,Jean-Michel Soubeyroux                            
+  786,104108,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, RR9,19200817,20201231,   10,Jean-Michel Soubeyroux                            
+  786,104906,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, SS1,19490101,20050101,   10,Jean-Michel Soubeyroux                            
+  786,104907,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, TX6,19200817,20201231,   10,Jean-Michel Soubeyroux                            
+  786,104908,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, TN2,19200817,20201231,   10,Jean-Michel Soubeyroux                            
+  786,106765,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, TG5,19200817,20201231,   10,Jean-Michel Soubeyroux                            
+  786,175638,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73,PP23,19910409,20201231,   10,Jean-Michel Soubeyroux                            
+  786,175639,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73,HU13,19200901,20201231,   10,Jean-Michel Soubeyroux                            
+  786,175640,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73,FG12,19380101,20201231,   10,Jean-Michel Soubeyroux                            
+  786,190869,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, QQ5,19940706,20191231,   72,Anatoly V. Tsvetkov                               
+  786,210074,MONTELIMAR                              ,FR,+44:34:52,+004:43:59,  73, QQ6,19490101,20050101,   10,Jean-Michel Soubeyroux                            
+  787,104979,MONTMORILLON                            ,FR,+46:25:00,+000:51:36, 152, RR3,19370101,20001231,   10,Jean-Michel Soubeyroux                            
+  788,104911,NIMES-COURBESSAC                        ,FR,+43:51:24,+004:24:22,  59, SS1,19460101,20050101,   10,Jean-Michel Soubeyroux                            
+  788,190881,NIMES-COURBESSAC                        ,FR,+43:51:24,+004:24:22,  59, QQ5,20120530,20191231,   72,Anatoly V. Tsvetkov                               
+  788,210075,NIMES-COURBESSAC                        ,FR,+43:51:24,+004:24:22,  59, QQ6,19460101,20050101,   10,Jean-Michel Soubeyroux                            
+  790,104963,ODEREN                                  ,FR,+47:54:00,+006:58:00, 460, RR3,19410101,20050101,   10,Jean-Michel Soubeyroux                            
+  792,104887,PAMIERS                                 ,FR,+43:07:01,+001:37:03, 295, RR3,19600101,20050101,   10,Jean-Michel Soubeyroux                            
+  793,104937,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6, TX6,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+  793,104938,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6, TN2,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+  793,106768,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6, TG5,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+  793,171628,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6, RR9,18800101,20201231,   10,Jean-Michel Soubeyroux                            
+  793,175669,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6,PP23,19920831,20201231,   10,Jean-Michel Soubeyroux                            
+  793,175670,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6,HU13,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+  793,175671,PTE DE LA HAGUE                         ,FR,+49:43:31,-001:56:23,   6,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+  796,104980,SAINT-GERMAIN-LES-BELLES                ,FR,+45:36:48,+001:29:06, 405, RR3,19210101,20050101,   10,Jean-Michel Soubeyroux                            
+  803,190853,VICHY-CHARMEIL                          ,FR,+46:10:00,+003:23:55, 249, QQ5,20100225,20191231,   72,Anatoly V. Tsvetkov                               
+  804,104886,VOUZIERS                                ,FR,+49:24:12,+004:42:12,  96, RR3,18900101,20050101,   10,Jean-Michel Soubeyroux                            
+ 2184,106184,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151, RR9,19680301,20201231,   10,Jean-Michel Soubeyroux                            
+ 2184,106428,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151, TX6,19680301,20201231,   10,Jean-Michel Soubeyroux                            
+ 2184,106671,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151, TN2,19680301,20201231,   10,Jean-Michel Soubeyroux                            
+ 2184,107207,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151, TG5,19680301,20201231,   10,Jean-Michel Soubeyroux                            
+ 2184,176132,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151,PP23,19701110,20201231,   10,Jean-Michel Soubeyroux                            
+ 2184,176133,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151,HU13,19680301,20201231,   10,Jean-Michel Soubeyroux                            
+ 2184,176134,ROUEN - BOOS                            ,FR,+49:22:59,+001:10:54, 151,FG12,19680301,20201231,   10,Jean-Michel Soubeyroux                            
+ 2188,219112,ST-DIZIER                               ,FR,+48:37:52,+004:54:13, 139, QQ5,20120101,20191231,   72,Anatoly V. Tsvetkov                               
+ 2190,104929,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, SS1,19610101,20050101,   10,Jean-Michel Soubeyroux                            
+ 2190,106190,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, RR9,19591101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2190,106433,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, TX6,19591101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2190,106676,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, TN2,19591101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2190,107211,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, TG5,19591101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2190,175654,TOURS                                   ,FR,+47:26:40,+000:43:38, 108,PP23,19641001,20201231,   10,Jean-Michel Soubeyroux                            
+ 2190,175655,TOURS                                   ,FR,+47:26:40,+000:43:38, 108,HU13,19610101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2190,175656,TOURS                                   ,FR,+47:26:40,+000:43:38, 108,FG12,19610101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2190,190839,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, QQ5,19760601,20191231,   72,Anatoly V. Tsvetkov                               
+ 2190,210217,TOURS                                   ,FR,+47:26:40,+000:43:38, 108, QQ6,19610101,20050101,   10,Jean-Michel Soubeyroux                            
+ 2191,190835,LUXEUIL                                 ,FR,+47:47:13,+006:21:49, 271, QQ5,20160901,20191231,   72,Anatoly V. Tsvetkov                               
+ 2192,106192,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263, RR9,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2192,106436,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263, TX6,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2192,106679,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263, TN2,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2192,107213,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263, TG5,19470101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2192,176127,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263,PP23,19901214,20201231,   10,Jean-Michel Soubeyroux                            
+ 2192,176128,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263,HU13,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2192,176129,BASEL-MULHOUSE                          ,FR,+47:36:52,+007:30:36, 263,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2193,190850,MACON                                   ,FR,+46:17:40,+004:47:39, 219, QQ5,19680101,20191231,   72,Anatoly V. Tsvetkov                               
+ 2194,190859,COGNAC                                  ,FR,+45:39:54,-000:18:57,  30, QQ5,20110302,20191231,   72,Anatoly V. Tsvetkov                               
+ 2195,106195,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402, RR9,19730101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2195,106438,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402, TX6,19730101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2195,106681,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402, TN2,19730101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2195,107215,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402, TG5,19730101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2195,176144,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402,PP23,19861001,20201231,   10,Jean-Michel Soubeyroux                            
+ 2195,176145,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402,HU13,19730101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2195,176146,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402,FG12,19730101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2195,190856,LIMOGES - BELLEGARDE                    ,FR,+45:51:40,+001:10:30, 402, QQ5,19671001,20191231,   72,Anatoly V. Tsvetkov                               
+ 2196,106196,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833, RR9,19831101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2196,106439,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833, TX6,19840101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2196,106682,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833, TN2,19840101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2196,107216,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833, TG5,19840101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2196,175660,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833,PP23,19840101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2196,175661,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833,HU13,19840101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2196,175662,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833,FG12,19840101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2196,190864,LE PUY - LOUDES                         ,FR,+45:04:28,+003:45:50, 833, QQ5,20110413,20191231,   72,Anatoly V. Tsvetkov                               
+ 2197,190862,GRENOBLE - ST GEOIRS                    ,FR,+45:21:50,+005:18:48, 384, QQ5,20090708,20191231,   72,Anatoly V. Tsvetkov                               
+ 2198,219103,BOURG-ST-MAURICE                        ,FR,+45:36:45,+006:45:48, 865, QQ5,20190101,20191231,   72,Anatoly V. Tsvetkov                               
+ 2199,106199,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260, RR9,19610201,20201231,   10,Jean-Michel Soubeyroux                            
+ 2199,106442,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260, TX6,19610201,20201231,   10,Jean-Michel Soubeyroux                            
+ 2199,106685,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260, TN2,19610201,20201231,   10,Jean-Michel Soubeyroux                            
+ 2199,107219,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260, TG5,19610201,20201231,   10,Jean-Michel Soubeyroux                            
+ 2199,175666,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260,PP23,19930101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2199,175667,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260,HU13,19610201,20201231,   10,Jean-Michel Soubeyroux                            
+ 2199,175668,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260,FG12,19610201,20201231,   10,Jean-Michel Soubeyroux                            
+ 2199,190868,GOURDON                                 ,FR,+44:44:42,+001:23:48, 260, QQ5,20160921,20191231,   72,Anatoly V. Tsvetkov                               
+ 2200,106200,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712, RR9,19640401,20201231,   10,Jean-Michel Soubeyroux                            
+ 2200,106443,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712, TX6,19640401,20201231,   10,Jean-Michel Soubeyroux                            
+ 2200,106686,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712, TN2,19640401,20201231,   10,Jean-Michel Soubeyroux                            
+ 2200,107220,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712, TG5,19640401,20201231,   10,Jean-Michel Soubeyroux                            
+ 2200,175613,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712,PP23,19930101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2200,175614,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712,HU13,19640401,20201231,   10,Jean-Michel Soubeyroux                            
+ 2200,175615,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712,FG12,19640401,20201231,   10,Jean-Michel Soubeyroux                            
+ 2200,190875,MILLAU                                  ,FR,+44:07:07,+003:01:07, 712, QQ5,19671001,20191231,   72,Anatoly V. Tsvetkov                               
+ 2201,190877,ST AUBAN                                ,FR,+44:03:43,+005:59:22, 458, QQ5,20120908,20191231,   72,Anatoly V. Tsvetkov                               
+ 2203,106203,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59, RR9,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2203,106445,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59, TX6,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2203,106688,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59, TN2,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2203,107222,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59, TG5,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2203,175657,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59,PP23,19880101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2203,175658,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59,HU13,19450101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2203,175659,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2203,190879,MONT-DE-MARSAN                          ,FR,+43:54:35,-000:30:01,  59, QQ5,20100101,20191231,   72,Anatoly V. Tsvetkov                               
+ 2204,190889,PAU-UZEIN                               ,FR,+43:23:06,-000:24:58, 183, QQ5,19780101,20191231,   72,Anatoly V. Tsvetkov                               
+ 2205,106205,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414, RR9,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2205,106447,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414, TX6,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2205,106690,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414, TN2,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2205,107224,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414, TG5,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2205,175607,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414,PP23,19870501,20201231,   10,Jean-Michel Soubeyroux                            
+ 2205,175608,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414,HU13,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2205,175609,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2205,190893,ST-GIRONS                               ,FR,+43:00:19,+001:06:25, 414, QQ5,20110505,20191231,   72,Anatoly V. Tsvetkov                               
+ 2207,106207,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2, RR9,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2207,106448,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2, TX6,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2207,106691,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2, TN2,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2207,107225,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2, TG5,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2207,175648,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2,PP23,19910408,20201231,   10,Jean-Michel Soubeyroux                            
+ 2207,175649,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2,HU13,19460101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2207,175650,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2207,219109,MONTPELLIER-AEROPORT                    ,FR,+43:34:37,+003:57:47,   2, QQ5,20180101,20191231,   72,Anatoly V. Tsvetkov                               
+ 2209,106209,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5, RR9,19491001,20201231,   10,Jean-Michel Soubeyroux                            
+ 2209,106450,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5, TX6,19491001,20201231,   10,Jean-Michel Soubeyroux                            
+ 2209,106693,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5, TN2,19491001,20201231,   10,Jean-Michel Soubeyroux                            
+ 2209,107227,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5, TG5,19491001,20201231,   10,Jean-Michel Soubeyroux                            
+ 2209,175626,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5,PP23,19851101,20201231,   10,Jean-Michel Soubeyroux                            
+ 2209,175627,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5,HU13,19491008,20201231,   10,Jean-Michel Soubeyroux                            
+ 2209,175628,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5,FG12,19491008,20201231,   10,Jean-Michel Soubeyroux                            
+ 2209,190896,AJACCIO                                 ,FR,+41:55:05,+008:47:34,   5, QQ5,19700721,20191231,   72,Anatoly V. Tsvetkov                               
+ 2293,190816,TRAPPES                                 ,FR,+48:46:27,+002:00:35, 167, QQ5,19671001,20191231,   72,Anatoly V. Tsvetkov                               
+ 3631,190812,EVREUX - HUEST                          ,FR,+49:01:30,+001:13:18, 138, QQ5,20110421,20170510,   72,Anatoly V. Tsvetkov                               
+11243,171616,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112, TN2,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+11243,171617,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112, TG5,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+11243,171618,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112, TX6,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+11243,171619,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112, RR9,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+11243,175610,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112,PP23,19910408,20201231,   10,Jean-Michel Soubeyroux                            
+11243,175611,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112,HU13,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+11243,175612,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112,FG12,19750501,20201231,   10,Jean-Michel Soubeyroux                            
+11243,190825,TROYES-BARBEREY                         ,FR,+48:19:29,+004:01:12, 112, QQ5,20090930,20191231,   72,Anatoly V. Tsvetkov                               
+11244,171620,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11, TN2,19170101,20201231,   10,Jean-Michel Soubeyroux                            
+11244,171621,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11, TG5,19170101,20201231,   10,Jean-Michel Soubeyroux                            
+11244,171622,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11, TX6,19170101,20201231,   10,Jean-Michel Soubeyroux                            
+11244,171623,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11, RR9,18840301,20201231,   10,Jean-Michel Soubeyroux                            
+11244,175621,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11,PP23,19910601,20201231,   10,Jean-Michel Soubeyroux                            
+11244,175622,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11,HU13,19210101,20201231,   10,Jean-Michel Soubeyroux                            
+11244,175623,PTE DE CHASSIRON                        ,FR,+46:02:49,-001:24:42,  11,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+11245,171624,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55, TN2,19470804,20201231,   10,Jean-Michel Soubeyroux                            
+11245,171625,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55, TG5,19470804,20201231,   10,Jean-Michel Soubeyroux                            
+11245,171626,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55, TX6,19470804,20201231,   10,Jean-Michel Soubeyroux                            
+11245,171627,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55, RR9,19470901,20201231,   10,Jean-Michel Soubeyroux                            
+11245,175635,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55,PP23,19970502,20201231,   10,Jean-Michel Soubeyroux                            
+11245,175636,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55,HU13,19970430,20201231,   10,Jean-Michel Soubeyroux                            
+11245,175637,PLOUMANAC'H                             ,FR,+48:49:33,-003:28:23,  55,FG12,19970430,20201231,   10,Jean-Michel Soubeyroux                            
+11246,171629,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336, TN2,19661101,20201231,   10,Jean-Michel Soubeyroux                            
+11246,171630,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336, TG5,19661101,20201231,   10,Jean-Michel Soubeyroux                            
+11246,171631,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336, TX6,19661101,20201231,   10,Jean-Michel Soubeyroux                            
+11246,171632,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336, RR9,19630101,20201231,   10,Jean-Michel Soubeyroux                            
+11246,176104,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336,PP23,19910409,20201231,   10,Jean-Michel Soubeyroux                            
+11246,176105,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336,HU13,19661001,20201231,   10,Jean-Michel Soubeyroux                            
+11246,176106,NANCY-OCHEY                             ,FR,+48:34:52,+005:57:35, 336,FG12,19661001,20201231,   10,Jean-Michel Soubeyroux                            
+11247,171633,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34, TN2,19300401,20201231,   10,Jean-Michel Soubeyroux                            
+11247,171634,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34, TG5,19300401,20201231,   10,Jean-Michel Soubeyroux                            
+11247,171635,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34, TX6,19300401,20201231,   10,Jean-Michel Soubeyroux                            
+11247,171636,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34, RR9,19300401,20201231,   10,Jean-Michel Soubeyroux                            
+11247,176107,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34,PP23,19910411,20201231,   10,Jean-Michel Soubeyroux                            
+11247,176108,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34,HU13,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+11247,176109,BELLE ILE - LE TALUT                    ,FR,+47:17:40,-003:13:06,  34,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+11248,171637,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115, TN2,19681001,20200206,   10,Jean-Michel Soubeyroux                            
+11248,171638,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115, TG5,19681001,20200206,   10,Jean-Michel Soubeyroux                            
+11248,171639,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115, TX6,19681001,20200206,   10,Jean-Michel Soubeyroux                            
+11248,171640,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115, RR9,19681001,20200125,   10,Jean-Michel Soubeyroux                            
+11248,176138,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115,PP23,19910401,20200205,   10,Jean-Michel Soubeyroux                            
+11248,176139,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115,HU13,19700706,20200206,   10,Jean-Michel Soubeyroux                            
+11248,176140,CAP CEPET                               ,FR,+43:04:46,+005:56:27, 115,FG12,19750912,20201231,   10,Jean-Michel Soubeyroux                            
+11249,171641,ORLY                                    ,FR,+48:43:01,+002:23:04,  89, TN2,19210301,20201231,   10,Jean-Michel Soubeyroux                            
+11249,171642,ORLY                                    ,FR,+48:43:01,+002:23:04,  89, TG5,19210301,20201231,   10,Jean-Michel Soubeyroux                            
+11249,171643,ORLY                                    ,FR,+48:43:01,+002:23:04,  89, TX6,19210301,20201231,   10,Jean-Michel Soubeyroux                            
+11249,171644,ORLY                                    ,FR,+48:43:01,+002:23:04,  89, RR9,19210301,20201231,   10,Jean-Michel Soubeyroux                            
+11249,176147,ORLY                                    ,FR,+48:43:01,+002:23:04,  89,PP23,19500101,20201231,   10,Jean-Michel Soubeyroux                            
+11249,176148,ORLY                                    ,FR,+48:43:01,+002:23:04,  89,HU13,19210301,20201231,   10,Jean-Michel Soubeyroux                            
+11249,176149,ORLY                                    ,FR,+48:43:01,+002:23:04,  89,FG12,19490101,20201231,   10,Jean-Michel Soubeyroux                            
+11249,190817,ORLY                                    ,FR,+48:43:01,+002:23:04,  89, QQ5,20001101,20191231,   72,Anatoly V. Tsvetkov                               
+11250,190854,AMBERIEU                                ,FR,+45:58:35,+005:19:45, 250, QQ5,20170518,20191231,   72,Anatoly V. Tsvetkov                               
+11253,190807,CHARLEVILLE - MEZ                       ,FR,+49:46:58,+004:38:35, 147, QQ5,20091121,20191231,   72,Anatoly V. Tsvetkov                               
+11256,190873,RODEZ - AVEYRON                         ,FR,+44:24:37,+002:28:57, 578, QQ5,20130102,20191231,   72,Anatoly V. Tsvetkov                               
+11263,190865,AURILLAC                                ,FR,+44:53:55,+002:25:15, 639, QQ5,20090702,20191231,   72,Anatoly V. Tsvetkov                               
+11266,190863,BRIVE                                   ,FR,+45:08:48,+001:28:24, 115, QQ5,20101005,20191231,   72,Anatoly V. Tsvetkov                               
+11276,219111,ST BRIEUC                               ,FR,+48:32:04,-002:51:07, 135, QQ5,20100101,20191231,   72,Anatoly V. Tsvetkov                               
+11277,190852,GUERET - ST LAURENT                     ,FR,+46:10:31,+001:57:01, 365, QQ5,20120101,20191231,   72,Anatoly V. Tsvetkov                               
+11278,190867,BERGERAC                                ,FR,+44:49:22,+000:31:26,  49, QQ5,20110222,20191231,   72,Anatoly V. Tsvetkov                               
+11279,190827,CHATEAUDUN                              ,FR,+48:03:40,+001:22:34, 126, QQ5,20100430,20191231,   72,Anatoly V. Tsvetkov                               
+11285,190830,QUIMPER                                 ,FR,+47:58:22,-004:09:38,  82, QQ5,20100209,20191230,   72,Anatoly V. Tsvetkov                               
+11287,190883,AUCH                                    ,FR,+43:41:20,+000:36:04, 122, QQ5,20100428,20191231,   72,Anatoly V. Tsvetkov                               
+11290,190820,DINARD                                  ,FR,+48:35:05,-002:04:34,  65, QQ5,20110716,20191231,   72,Anatoly V. Tsvetkov                               
+11293,190815,TAVAUXSA                                ,FR,+47:02:37,+005:25:38, 195, QQ5,20120101,20191231,   72,Anatoly V. Tsvetkov                               
+11294,190872,BISCARROSSE                             ,FR,+44:25:54,-001:14:51,  35, QQ5,19790101,20191231,   72,Anatoly V. Tsvetkov                               
+11296,190882,DAX                                     ,FR,+43:41:23,-001:04:12,  31, QQ5,20110315,20191231,   72,Anatoly V. Tsvetkov                               
+11298,190837,BLOIS                                   ,FR,+47:40:45,+001:12:44, 119, QQ5,20130101,20191231,   72,Anatoly V. Tsvetkov                               
+11299,190861,ST ETIENNE-BOUTHEON                     ,FR,+45:32:44,+004:17:37, 395, QQ5,20170221,20191231,   72,Anatoly V. Tsvetkov                               
+11302,190871,MENDE                                   ,FR,+44:32:01,+003:27:16, 932, QQ5,20100801,20191231,   72,Anatoly V. Tsvetkov                               
+11303,190838,BEAUCOUZE                               ,FR,+47:28:44,-000:36:51,  50, QQ5,20090101,20191231,   72,Anatoly V. Tsvetkov                               
+11305,219104,GONNEVILLE                              ,FR,+49:39:09,-001:27:48, 134, QQ5,20180101,20191231,   72,Anatoly V. Tsvetkov                               
+11307,190828,LAVAL-ENTRAMMES                         ,FR,+48:01:56,-000:44:21,  99, QQ5,20110413,20191231,   72,Anatoly V. Tsvetkov                               
+11309,190836,LORIENT-LANN BIHOUE                     ,FR,+47:45:46,-003:26:08,  45, QQ5,20100115,20191230,   72,Anatoly V. Tsvetkov                               
+11311,190844,NEVERS-MARZY                            ,FR,+46:59:54,+003:06:45, 175, QQ5,20170415,20191231,   72,Anatoly V. Tsvetkov                               
+11312,190809,CREIL                                   ,FR,+49:15:07,+002:31:15,  88, QQ5,20090101,20191231,   72,Anatoly V. Tsvetkov                               
+11314,190803,CALAIS-MARCK                            ,FR,+50:58:00,+001:58:00,   2, QQ5,20130101,20191231,   72,Anatoly V. Tsvetkov                               
+11315,190805,LE TOUQUET                              ,FR,+50:30:52,+001:37:22,   5, QQ5,20160615,20191231,   72,Anatoly V. Tsvetkov                               
+11319,190832,COLMAR - MEYENHEIM                      ,FR,+47:55:43,+007:24:27, 207, QQ5,19910301,20191231,   72,Anatoly V. Tsvetkov                               
+11321,190860,CHAMBERY - AIX                          ,FR,+45:38:28,+005:52:40, 235, QQ5,20090827,20191231,   72,Anatoly V. Tsvetkov                               
+11322,190855,MEYTHET                                 ,FR,+45:55:41,+006:05:38, 455, QQ5,20130101,20161231,   72,Anatoly V. Tsvetkov                               
+11326,190819,MELUN                                   ,FR,+48:36:37,+002:40:46,  91, QQ5,20100102,20191231,   72,Anatoly V. Tsvetkov                               
+11328,190849,NIORT                                   ,FR,+46:18:55,-000:24:00,  57, QQ5,20100101,20191231,   72,Anatoly V. Tsvetkov                               
+11329,190880,ALBI                                    ,FR,+43:54:52,+002:06:58, 172, QQ5,20120101,20191231,   72,Anatoly V. Tsvetkov                               
+11330,190878,MONT AUBAN                              ,FR,+44:01:40,+001:22:36, 106, QQ5,20090708,20191231,   72,Anatoly V. Tsvetkov                               
+11331,190890,LE LUC                                  ,FR,+43:22:59,+006:23:10,  80, QQ5,20110219,20191231,   72,Anatoly V. Tsvetkov                               
+11336,190876,CARPENTRAS                              ,FR,+44:04:58,+005:03:33,  99, QQ5,19680119,20191231,   72,Anatoly V. Tsvetkov                               
+11337,190847,LA ROCHE-SUR-YON                        ,FR,+46:42:19,-001:22:54,  90, QQ5,19850401,20191231,   72,Anatoly V. Tsvetkov                               
+16318,190603,PALAISEAU                               ,FR,+48:42:47,+002:12:29, 156, QQ4,20010501,20191231,   71,BSRN                                              
+16353,190672,ST-QUENTIN                              ,FR,+49:49:00,+003:12:00,  98, QQ5,19730418,20191231,   72,Anatoly V. Tsvetkov                               
+16354,190673,CHERBOURG                               ,FR,+49:31:00,-001:30:00,  61, QQ5,20120102,20171231,   72,Anatoly V. Tsvetkov                               
+16355,190674,REIMS-COURCY                            ,FR,+49:18:00,+004:03:00,  91, QQ5,19740801,20111231,   72,Anatoly V. Tsvetkov                               
+16356,190675,ROISSY-EN-FRANCE                        ,FR,+49:00:00,+002:32:00, 108, QQ5,19891101,20171231,   72,Anatoly V. Tsvetkov                               
+16357,190676,PARC SAINT MAUR                         ,FR,+48:49:00,+002:30:00,  50, QQ5,19640102,19691229,   72,Anatoly V. Tsvetkov                               
+16358,190677,EPINAL                                  ,FR,+48:12:00,+006:27:00, 317, QQ5,20130102,20130630,   72,Anatoly V. Tsvetkov                               
+16359,190678,VANNES                                  ,FR,+47:38:00,-002:45:00,  11, QQ5,20130101,20191231,   72,Anatoly V. Tsvetkov                               
+16360,190679,CHOLET                                  ,FR,+47:04:00,-000:52:00, 134, QQ5,20130101,20160705,   72,Anatoly V. Tsvetkov                               
+16361,190680,NOIRMOUTIER IS.                         ,FR,+47:00:00,-002:20:00,   2, QQ5,19850401,19901231,   72,Anatoly V. Tsvetkov                               
+16362,190681,MT-ST-VINCENT                           ,FR,+46:37:00,+004:28:00, 602, QQ5,20130102,20191231,   72,Anatoly V. Tsvetkov                               
+16363,190682,POITIERS-BIARD                          ,FR,+46:35:00,+000:18:00, 123, QQ5,20110217,20171231,   72,Anatoly V. Tsvetkov                               
+16364,190683,LA PESSE                                ,FR,+46:18:00,+005:50:00,1133, QQ5,20130101,20191231,   72,Anatoly V. Tsvetkov                               
+16365,190684,COLOMBIER-LE-JEUNE                      ,FR,+45:01:00,+004:40:00, 566, QQ5,19940301,19940530,   72,Anatoly V. Tsvetkov                               
+16366,190685,VALENCE-CHABEUI                         ,FR,+44:54:00,+004:58:00, 163, QQ5,20140701,20170331,   72,Anatoly V. Tsvetkov                               
+16367,190686,LUS LA CROIXHAUTE                       ,FR,+44:40:00,+005:42:00,1059, QQ5,20130101,20160724,   72,Anatoly V. Tsvetkov                               
+16368,190687,AUBENAS                                 ,FR,+44:32:00,+004:22:00, 280, QQ5,19950101,20160724,   72,Anatoly V. Tsvetkov                               
+16369,190688,CAPTIEUX                                ,FR,+44:11:00,-000:17:00, 132, QQ5,19800501,19860808,   72,Anatoly V. Tsvetkov                               
+16370,190689,CASTRES                                 ,FR,+43:33:00,+002:18:00, 232, QQ5,19930201,19930930,   72,Anatoly V. Tsvetkov                               
+16371,190690,AIX-EN-PROVENCE                         ,FR,+43:31:00,+005:25:00, 173, QQ5,20130101,20160731,   72,Anatoly V. Tsvetkov                               
+16372,190691,ILE DU LEVANT                           ,FR,+43:01:00,+006:28:00, 118, QQ5,19770201,20191231,   72,Anatoly V. Tsvetkov                               
+16373,190692,ODEILLO                                 ,FR,+42:29:00,+002:07:00,1580, QQ5,19810701,19901231,   72,Anatoly V. Tsvetkov                               

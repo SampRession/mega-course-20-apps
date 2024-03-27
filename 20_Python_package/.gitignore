@@ -1,0 +1,7 @@
+__pycache__
+.venv
+.idea
+.resources
+/dist
+ruff.toml
+todos.md

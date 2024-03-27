@@ -1,0 +1,7 @@
+__pycache__
+.venv
+.idea
+.resources
+ruff.toml
+todos.md
+qr.png

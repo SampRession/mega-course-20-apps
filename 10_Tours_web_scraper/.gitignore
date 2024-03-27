@@ -1,0 +1,7 @@
+/resources/
+/files/
+.venv
+.idea
+/files/sql_example.py
+/database/data.txt
+/student_project_day40.py

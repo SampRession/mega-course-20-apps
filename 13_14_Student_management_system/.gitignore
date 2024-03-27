@@ -1,0 +1,18 @@
+__pycache__
+.ruff_cache
+.venv
+.vscode
+.history
+build
+dist
+database_GUI.spec
+PenPot
+app_planning.md
+example.py
+ruff.toml
+Samp.session.sql
+pyrightconfig.json
+
+# Only for MySQL version
+db
+config.py

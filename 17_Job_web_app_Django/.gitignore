@@ -1,0 +1,6 @@
+__pycache__
+.venv
+.resources
+ruff.toml
+todos.md
+config_secrets.py

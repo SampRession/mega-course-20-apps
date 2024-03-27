@@ -1,0 +1,12 @@
+/__pycache__
+/*/__pycache__
+.venv
+/*/.venv
+.idea
+/*/.idea
+.vscode
+/*/.vscode
+test.py
+/*/test.py
+/*/tests.py
+/*/dist
