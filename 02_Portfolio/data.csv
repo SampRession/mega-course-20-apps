@@ -1,5 +1,20 @@
 title,description,source_code_url,image_path
-Todo app	,"A minimalistic, distraction-free web app to track your tasks, and organize your day.",https://github.com/SampRession/my-todo-web-app,1.png
-Portfolio website,"A web app to showcase my Python projects, learned during courses, or self-developed.",https://github.com/SampRession/,2.png
-PDF Generator,"Generate PDF files using .csv datas for Headers, number of pages and footer.",https://github.com/SampRession/basic-PDF-generator,3.png
-PDF invoice generator,"App that reads datas from multiple Excel files, and export them in individual formatted PDF files.",https://github.com/SampRession/PDF-invoice-generator,4.png
+Todo app,"A minimalistic, distraction-free web app to track your tasks, and organize your day.",https://github.com/SampRession/mega-course-20-apps/tree/main/01_Todo_app,1.png
+Portfolio website,"A web app to showcase my Python projects, learned during courses, or self-developed.",https://github.com/SampRession/mega-course-20-apps/tree/main/02_Portfolio,2.png
+PDF Generator,"Generate PDF files using .csv datas for Headers, number of pages and footer.",https://github.com/SampRession/mega-course-20-apps/tree/main/03_PDF_generator,3.png
+Invoices to PDF,"App that reads datas from multiple Excel files, and export them in individual formatted PDF files.",https://github.com/SampRession/mega-course-20-apps/tree/main/04_Invoices2PDF,4.png
+Daily news digest,"App using NewsAPI to request news about particular topic and sends them by email.",https://github.com/SampRession/mega-course-20-apps/tree/main/05_Daily_news_digest,5.png
+Historical weather data,"Web app to see historical weather data and visualize them with graphs.",https://github.com/SampRession/mega-course-20-apps/tree/main/06_Historical_weather_data,6.png
+Weather forecast dashboard,"Web app that visualizes the weather forecast for the next five days.",https://github.com/SampRession/mega-course-20-apps/tree/main/07_Weather_forecast_dashboard,7.png
+Natural language processing,"Use re to count word occurrences in a text, and nltk to analyze sentiment of the text.",https://github.com/SampRession/mega-course-20-apps/tree/main/08_Natural_language_processing,8.png
+Webcam Motion Detector,"A program that monitors the computer webcam and sends an email when a new object enters the view.",https://github.com/SampRession/mega-course-20-apps/tree/main/09_Webcam_monitoring_app,11.png
+Tour Scraper,"A program that checks a music band's website and sends an email when there are new tours.",https://github.com/SampRession/mega-course-20-apps/tree/main/10_Tours_web_scraper,10.png
+Hotel booking app,"A CLI app used to book app Hotel and Spa package from a list, depending on availability.",https://github.com/SampRession/mega-course-20-apps/tree/main/11_Hotel_booking_app,11.png
+Mario game analysis,"Not an app, just to learn to read another programmer's code.",https://github.com/SampRession/mega-course-20-apps/tree/main/12_Mario_game_analysis,12.png
+Student Management System,"A desktop PyQt6 GUI app for managing university student data with an SQL database backend.",https://github.com/SampRession/mega-course-20-apps/tree/main/13_14_Student_management_system,13.png
+Intelligent chatbot,"A desktop PyQt6 GUI app allowing to send prompt to a chatbot (using OpenAI).",https://github.com/SampRession/mega-course-20-apps/tree/main/15_Intelligent_chatbot,10.png
+Job web app (Flask),"A web app made with Flask, allowing user to fill a form for a job application, with automatic emailing.",https://github.com/SampRession/mega-course-20-apps/tree/main/16_Job_web_app_Flask,16.png
+Job web app (Django),"Same app as the previous one, but made with Django.",https://github.com/SampRession/mega-course-20-apps/tree/main/17_Job_web_app_Django,17.png
+Restaurant Menu Web App,"A Django web app to let customers see a restaurant menu and meal availability.",https://github.com/SampRession/mega-course-20-apps/tree/main/18_Restaurant_app_Django,19.png
+Movie recommendations,"Jupyter notebook to explore how recommendations systems work.",https://github.com/SampRession/mega-course-20-apps/tree/main/19_Movie_recommendations,
+Python package,"Create and publish a Python package (from app 4) on PyPi.",https://github.com/SampRession/mega-course-20-apps/tree/main/20_Python_package,
